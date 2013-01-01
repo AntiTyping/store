@@ -2,3 +2,6 @@
 - @users.each do |user|
   %p
     User: #{link_to user.name, user}
+= hello
+= paypal_url("http://localhost:3000")
+= link_to "Pay with PayPal", paypal_url("http://localhost:3000")
